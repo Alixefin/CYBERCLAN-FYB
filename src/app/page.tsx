@@ -136,9 +136,6 @@ export default function HomePage() {
           </p>
         </CardHeader>
         <CardContent className="p-8 md:p-12 text-center">
-          <p className="text-muted-foreground mb-8 text-lg font-body">
-            Welcome to the official portal for the Final Year Brethren activities and celebrations.
-          </p>
           <div className="flex flex-col gap-6">
             <Button asChild size="lg" className="font-headline text-lg py-8 bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg transition-transform hover:scale-105">
               <Link href="/fyb-students">
